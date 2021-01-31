@@ -1,0 +1,30 @@
+{
+  "name": "omo-central",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@graphql-codegen/typescript-resolvers": "^1.18.1",
+    "@prisma/client": "^2.15.0",
+    "@types/bases": "^0.2.2",
+    "@types/jsonwebtoken": "^8.5.0",
+    "apollo-server-micro": "^2.19.2",
+    "base58": "^2.0.1",
+    "bases": "^0.2.1",
+    "graphql": "^15.5.0",
+    "webnative": "^0.21.3"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.20.1",
+    "@graphql-codegen/typescript": "^1.20.2",
+    "@prisma/cli": "^2.15.0"
+  },
+  "scripts": {
+    "generate": "graphql-codegen"
+  },
+  "author": "",
+  "license": "ISC"
+}
